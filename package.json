@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-react-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently -n 'server,client' \"nodemon app.js\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travisstew/ecommerce-react-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/travisstew/ecommerce-react-/issues"
+  },
+  "homepage": "https://github.com/travisstew/ecommerce-react-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2"
+  }
+}
