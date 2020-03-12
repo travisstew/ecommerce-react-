@@ -1,0 +1,13 @@
+#jumbotron{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.homepage-divs{
+  display: flex;
+}
+.homepage-divs div{
+   width: 100%;
+   margin: 10px;
+    
+}
+
